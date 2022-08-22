@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Oculus/Interaction/Samples/Scenes/Examples/HandGrabExamples.unity
     guid: 39ae0e546b9edc0408d3b11c6a7c2814
+  - enabled: 0
+    path: Assets/Scenes/PassThroughSetUp.unity
+    guid: d8717e5881f3d034e92d0bec41859924
+  - enabled: 0
+    path: Assets/Scenes/PassThroughHandGrab.unity
+    guid: 560d4145d1baf9b4dbfc531e406576cd
+  - enabled: 1
+    path: Assets/Scenes/PassThroughGrabTransformer.unity
+    guid: 9924be53d44a10044a51aa0db421ccd2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e5856a1449d3d924e9fd56113961944d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 308bf3c9f15e88f49ac40e718d218092, type: 2}
